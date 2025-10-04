@@ -1,13 +1,13 @@
-
+// File: src/App.js
 import React from "react";
-import './../styles/App.css';
+import AutoComplete from "./AutoComplete";
+import "./styles.css";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div className="app">
+      <h1>Fruit Autocomplete</h1>
+      <AutoComplete />
     </div>
-  )
+  );
 }
-
-export default App
